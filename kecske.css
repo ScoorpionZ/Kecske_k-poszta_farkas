@@ -1,0 +1,80 @@
+header,aside,article,footer{
+    border: 1px solid gray;
+    margin: 10px;
+}
+header h1{
+    text-align: center;
+}
+
+/*#bal{
+    grid-area:as1
+}
+#jobb{
+    grid-area:as2
+}
+article{
+    grid-area:a;
+}
+header{
+    grid-area:h;
+}
+footer{
+    grid-area:f;
+}
+main{
+    display: grid;
+    grid-template-areas:
+        "h h h"
+        "as1 a as2  "
+        "f f f";
+    grid-template-columns: 400px auto 400px;
+}*/
+footer p{
+    background-color: dodgerblue;
+}
+img{
+    width: 30%;
+}
+article{
+    background-image: url("kepek/csonak.png");
+    background-color: dodgerblue;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header{
+    flex:0 0 100%;
+    order: 1;
+}
+div{
+    order:2;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div aside{
+    flex:0 0 20%;
+}
+div article{
+    flex:0 0 50%;
+    min-height: 400px;
+}
+footer{
+    flex: 0 0 100%;
+    order:3;
+}
+footer p{
+    text-align: center;
+}
+.kiemel{
+    border: 2px solid red;
+    cursor: grab;
+}
