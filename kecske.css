@@ -71,8 +71,9 @@ footer{
     flex: 0 0 100%;
     order:3;
 }
-footer p{
+footer>p{
     text-align: center;
+    font-size: 20px;
 }
 .kiemel{
     border: 2px solid red;
