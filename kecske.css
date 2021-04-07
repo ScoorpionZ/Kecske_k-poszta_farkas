@@ -6,7 +6,7 @@ header h1{
     text-align: center;
 }
 
-/#bal{
+/*#bal{
     grid-area:as1
 }
 #jobb{
@@ -28,7 +28,7 @@ main{
         "as1 a as2  "
         "f f f";
     grid-template-columns: 400px auto 400px;
-}/
+}*/
 footer p{
     background-color: dodgerblue;
 }
