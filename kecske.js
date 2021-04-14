@@ -16,7 +16,7 @@ function init(){
         $("aside p img")[i].addEventListener("mouseout",feladat6);
     }
 
-    $("footer p")[0].innerHTML = "V√°radi √Åkos, Simon Gergely, Li Rich®¢rd, Schmiedmeiszter ?d®¢m";
+    $("footer p")[0].innerHTML = "V√°radi √Åkos, Simon Gergely, Li Rich√°rd, Schmiedmeiszter √Åd√°m";
     for (var i = 0; i < $("#bal img").length; i++) {
         $("#bal img")[i].addEventListener("click",feladat3b);
         $("#bal img")[i].addEventListener("click",feladat7);
