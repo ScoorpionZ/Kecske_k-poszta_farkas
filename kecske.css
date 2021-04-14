@@ -1,3 +1,4 @@
+@charset "utf-8";
 header,aside,article,footer{
     border: 1px solid gray;
     margin: 10px;
